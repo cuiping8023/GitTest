@@ -12,6 +12,7 @@ import javax.persistence.EntityManager;
  */
 @Service
 public class UserServiceImpl implements UserService{
+
     @Resource
     private UserRepo  userRepo;
     @Resource
