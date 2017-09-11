@@ -18,6 +18,8 @@ public class UserServiceImpl implements UserService{
     private EntityManager  entityManager;
     public User  findUserById(String name){
 
+
+
       return userRepo.findByName(name);
     }
     public void saveUser(User user){
